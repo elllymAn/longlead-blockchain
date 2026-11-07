@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="620" viewBox="0 0 660 620">
+  <defs>
+    <pattern id="dots" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#455c4b"/>
+    </pattern>
+    <linearGradient id="floor" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#2b4130"/>
+      <stop offset="1" stop-color="#19241c"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#809b4c" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#809b4c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#dafa70"/>
+      <stop offset="1" stop-color="#9cb84b"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="359" cy="301" r="246"/>
+    </clipPath>
+  </defs>
+  <circle cx="359" cy="301" r="263" fill="url(#glow)"/>
+  <g clip-path="url(#circle)">
+    <rect x="113" y="54" width="493" height="494" fill="url(#dots)" opacity=".59"/>
+    <circle cx="359" cy="301" r="222" fill="none" stroke="#475d48" stroke-dasharray="3 7"/>
+    <circle cx="359" cy="301" r="191" fill="none" stroke="#455c4b"/>
+    <path d="M114 301h490M359 53v494" stroke="#435446"/>
+  </g>
+  <circle cx="359" cy="301" r="246" fill="none" stroke="#4b6150"/>
+  <path d="M359 45v19m0 473v18M104 301h19m473 0h19M535 125l12-12M175 485l-12 12" stroke="#a2b96c" stroke-width="1.2"/>
+  <path d="m76 398 276 151 280-156-282-148Z" fill="#141917" stroke="#475d48"/>
+  <path d="m76 382 276 151 280-156-282-148Z" fill="url(#floor)" stroke="#688052"/>
+  <path d="m76 382 276 151 280-156v16L352 549 76 398Z" fill="#1e2d23" stroke="#526b54"/>
+  <path d="m113 402 275-153m-233 176 275-153m-233 176 275-153m-233 176 275-153m-233 176 275-153m-233 176 275-153M115 360l279 149M157 337l279 149M199 314l279 149M241 291l279 149M283 268l279 149M325 245l279 149" fill="none" stroke="#537052" opacity=".5"/>
+  <path d="m151 376 46-26 37 20 68-38 66 37 53-31 64 34 72-40" fill="none" stroke="#dafa70" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m191 424 48-27 43 23 53-29m-12 96 47-26 49 26 104-59m-75-134 53-30 45 24" fill="none" stroke="#7b9871" stroke-width="1.2" stroke-dasharray="4 6"/>
+  <g fill="#dafa70">
+    <circle cx="151" cy="376" r="4"/><circle cx="234" cy="370" r="4"/><circle cx="368" cy="369" r="5"/><circle cx="557" cy="332" r="4"/>
+  </g>
+  <g stroke-linejoin="round">
+    <path d="m153 284 49-28 49 28-49 29Z" fill="#3d5840" stroke="#a3b88b"/>
+    <path d="M153 284v63l49 27v-61Z" fill="#2c4232" stroke="#8fa77f"/>
+    <path d="M202 313v61l49-27v-63Z" fill="#526d42" stroke="#a3b88b"/>
+    <path d="m261 225 64-37 64 37-64 36Z" fill="#dafa70" stroke="#e6ffa1"/>
+    <path d="M261 225v84l64 35v-83Z" fill="#6e883a" stroke="#cbe77b"/>
+    <path d="M325 261v83l64-35v-84Z" fill="url(#face)" stroke="#e6ffa1"/>
+    <path d="m308 224 15-9 18 10-16 9Z" fill="#2d4d27"/>
+    <path d="m354 277 19-11m-19 22 19-11m-19 22 19-11" stroke="#465e29" stroke-width="2"/>
+    <path d="m436 279 58-33 58 33-58 34Z" fill="#476153" stroke="#a1b7a9"/>
+    <path d="M436 279v74l58 33v-73Z" fill="#24372e" stroke="#9cb4a5"/>
+    <path d="M494 313v73l58-33v-74Z" fill="#385648" stroke="#9cb4a5"/>
+    <path d="m481 272 24-3-8 19Z" fill="#e0ffa0"/>
+    <path d="m507 325 31-18m-31 29 31-18m-31 29 31-18" stroke="#afcab0" stroke-width="1.6"/>
+  </g>
+  <g fill="none" stroke="#9dbd87" stroke-width="1" stroke-dasharray="3 5">
+    <path d="M325 188v-48h-85"/><path d="M494 246v-56h74"/><path d="M153 284v-61h-30"/>
+  </g>
+  <g fill="#d5e2d0" font-family="Consolas, monospace" font-size="11" letter-spacing="1">
+    <text x="238" y="132">БЛОК 02</text><text x="520" y="182">СЕРВЕР</text><text x="89" y="215">БЛОК 01</text>
+  </g>
+  <g stroke="#dafa70" fill="#141917">
+    <circle cx="325" cy="140" r="4"/><circle cx="494" cy="190" r="4"/><circle cx="153" cy="223" r="4"/>
+  </g>
+  <path d="M103 78h27m-27 0v27M614 78h-27m27 0v27M103 530h27m-27 0v-27M614 530h-27m27 0v-27" stroke="#647e65" fill="none"/>
+  <g fill="#99ad96" font-family="Consolas, monospace" font-size="10" letter-spacing="2">
+    <text x="115" y="96">NET / 01</text><text x="545" y="516">SYNC / 02</text>
+  </g>
+</svg>
